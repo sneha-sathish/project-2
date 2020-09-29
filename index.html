@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://kit.fontawesome.com/75b6b6786e.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/style.css">
+
+  <title>Frontend Mentor | Social Media Dashboard With Theme Swither</title>
+</head>
+<body class="dark">
+  <header>
+    <div class='page-title'>
+      <h3>Social Media Dashboard</h3>
+      <p>Total Followers: 23,004</p>
+    </div>
+
+    <div class="toggle-container">
+      <p>Dark Mode</p>
+      <label class="toggle" id="toggle">
+        <input class="toggle-checkbox" type="checkbox" />
+        <div class="toggle-switch"></div>
+      </label>
+    </div>
+  </header>
+
+  <section class="main-cards-container">
+    <div class="main-card">
+      <p class="username"><i class="fab fa-facebook-square"></i>@nathanf</p>
+      <h1 class="followers__number">1987</h1>
+      <p class="followers__title">Followers</p>
+      <p class="followers__today up"><i class="fas fa-caret-up"></i>12 Today</p>
+    </div>
+
+   
+
+    <div class="main-card">
+      <p class="username instagram">
+        <i class="fab fa-instagram"></i>@realnathanf
+      </p>
+      <h1 class="followers__number">11k</h1>
+      <p class="followers__title">Followers</p>
+      <p class="followers__today up"><i class="fas fa-caret-up"></i>1099 Today</p>
+    </div>
+
+    <div class="main-card">
+      <p class="username youtube-square">
+        <i class="fab fa-youtube-square"></i>Nathan F.
+      </p>
+      <h1 class="followers__number">8239</h1>
+      <p class="followers__title">Subscribers</p>
+      <p class="followers__today down"><i class="fas fa-caret-down"></i>144 Today</p>
+    </div>
+  </section>
+
+  <h3 class='overview__title'>Overview - Today</h3>
+  <section class="overview-container">
+    <div class="overview-card">
+      <div class="overview__number">
+        <p>Page Views</p>
+        <h2>87</h2>
+      </div>
+      <div class="overview__percents">
+        <i class="fab fa-facebook-square"></i>
+        <p class="up"><i class="fas fa-caret-up"></i>3%</p>
+      </div>
+    </div>
+
+    <div class="overview-card">
+      <div class="overview__number">
+        <p>Likes</p>
+        <h2>52</h2>
+      </div>
+      <div class="overview__percents">
+        <i class="fab fa-facebook-square"></i>
+        <p class="down"><i class="fas fa-caret-down"></i>2%</p>
+      </div>
+    </div>
+
+    <div class="overview-card">
+      <div class="overview__number">
+        <p>Likes</p>
+        <h2>5562</h2>
+      </div>
+      <div class="overview__percents">
+        <i class="fab fa-instagram"></i>
+        <p class="up"><i class="fas fa-caret-up"></i>2257%</p>
+      </div>
+    </div>
+
+  
+
+  
+  <script src="javascript/index.js"></script>
+</body>
+</html>
